@@ -18,3 +18,8 @@
     @apply bg-centerHoney
 }
 
+
+div:where(.swal2-icon).swal2-warning {
+    border-color: #facea8;
+    color: "#f2f2f2" !important;
+}

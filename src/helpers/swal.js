@@ -6,11 +6,12 @@ export const swalAlert = (title, icon = "info", text = "") => {
 		title,
 		text,
 		icon,
+		
 	});
 };
 
 export const swalToast = (title, icon = "error") => {
-    const color = icon === "success" ? "#F8CD05" : "";
+    
 	const Toast = Swal.mixin({
 		toast: true,
 		position: "top",
@@ -18,7 +19,6 @@ export const swalToast = (title, icon = "error") => {
         heightAuto:"1rem",
 		showConfirmButton: false,
 		timer: 3000,
-        iconColor:color,
 		timerProgressBar: true,
 		didOpen: (toast) => {
 			toast.onmouseenter = Swal.stopTimer;

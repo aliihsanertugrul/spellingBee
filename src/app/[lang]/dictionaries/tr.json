@@ -1,0 +1,29 @@
+{
+    "rules": {
+      "ruleHeader": "Oyun Kuralları",
+      "createWords": "Gösterilen harfleri kullanarak kelimeler oluşturun.",
+      "atleastFourLetters":"Kelimeler en az dört harften oluşmalıdır.",
+      "centerLetter":"Kelimelerde merkez harf mutlaka bulunmalıdır.",
+      "moreThanOne": "Harfler birden fazla kullanılabilir.",
+      "notIntheList": "Kısa kelimeler, ortak isimler, kaba kelimeler ve özellikle az bilinen kelimeler sözlükte yer almaz.",
+      "earnPoints": "Her geçerli kelime puan kazandırır.",
+  
+      "fourLetters": "Dört harfli kelimeler 5 puan değerindedir.",
+      "fiveLetters": "Beş harfli kelimeler 6 puan değerindedir ve altı harfli kelimeler bir puan daha fazla değerlidir.",
+      "pangrams": "Pangramlar - yedi harf kullanan kelimeler - 10 puan değerindedir. Her bulmacada en az bir pangram bulunur.",
+      "play":"Oyuna Başla"
+    },
+    "buttons":{
+      "delete":"Sil",
+      "enter":"Tıkla",
+      "startGame":"Oyuna Başla"
+    },
+    "hive":{
+      "timeIsOver":"Süre doldu!",
+      "time":"SÜRE",
+      "points":"PUAN",
+      "score":"SKOR"
+    }
+  }
+  
+  

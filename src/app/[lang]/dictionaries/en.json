@@ -1,0 +1,27 @@
+{
+  "rules": {
+    "ruleHeader": "Rules",
+    "createWords": "Create words using the letters shown.",
+    "atleastFourLetters":"Words must have at least four letters",
+    "centerLetter":"Words must include the center letter.",
+    "moreThanOne": "Letters can be used more than once.",
+    "notIntheList": "Words with hyphens, proper nouns, vulgarities, and especially obscure words are not in the word list.",
+    "earnPoints": "Every valid word earns points.",
+    "fourLetters": "Four-letter words are worth 5 point.",
+    "fiveLetters": "Five-letter words are worth 6 point and six-letter words 1 point more.",
+    "pangrams": "Pangrams — words that use all seven letters — are worth 10 points. There is at least one pangram per puzzle",
+    "play":"Play"
+  },
+  "buttons":{
+    "delete":"Delete",
+    "enter":"Enter",
+    "startGame":"Start Game"
+  },
+  "hive":{
+    "timeIsOver":"Time is Over!",
+    "time":"TIME",
+    "points":"POINTS",
+    "score":"SCORE"
+    
+  }
+}
