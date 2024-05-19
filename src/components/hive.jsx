@@ -91,7 +91,7 @@ const Hive = ({ setShowGame, t, lang }) => {
         <div className="max-w-3/4 border-2 border-centerHoney p-3  rounded-md text-md flex flex-col justify-between flex-wrap overflow-hidden shadow-md">
           <div className="flex flex-wrap">
             {trueWords.map((item) => (
-              <span className="mr-3">{item.word}</span>
+              <span key={item.word} className="mr-3">{item.word}</span>
             ))}
           </div>
         </div>
